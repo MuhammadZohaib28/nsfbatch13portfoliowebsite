@@ -1,0 +1,23 @@
+.primary-button {
+    background: #de4b4b;
+    background: linear-gradient(90deg, rgba(222, 75, 75, 1) 0%, rgba(227, 32, 185, 1) 0%, rgba(255, 0, 0, 0.89) 68%, rgba(237, 221, 83, 1) 100%);
+
+
+    padding: 1rem 2.5rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+}
+
+
+.resume-button {
+    background: transparent;
+    padding: 1rem 2.5rem;
+    color: black;
+    font-size: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 2px solid black;
+}
