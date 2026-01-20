@@ -1,0 +1,20 @@
+.skill-container {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border: 2px solid #000;
+
+
+}
+
+.bar {
+    position: absolute;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(222, 75, 75, 1) 0%, rgba(227, 32, 185, 1) 0%, rgba(255, 0, 0, 0.89) 68%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 5px;
+
+    top: 10px;
+
+    left: 180px;
+}

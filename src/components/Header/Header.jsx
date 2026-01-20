@@ -32,7 +32,7 @@ const Header = () => {
 
 
   return (
-    <header>
+    <header className='header'>
       <h1 className=''>NSF</h1>
 
 
@@ -55,15 +55,7 @@ const Header = () => {
         <Button buttonName={"Connect With Me"} isPrimary={true}/>
 
 
-        <Button buttonName={"My Resume"} />
-
-
-        
-        
-
-
        
-
 
 
      

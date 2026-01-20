@@ -7,7 +7,6 @@ const Button = ({ buttonName, isPrimary }) => {
 
     <button className={`${isPrimary ? "primary-button" : "resume-button"} `}>
 
-
       {buttonName}
     </button>
 
