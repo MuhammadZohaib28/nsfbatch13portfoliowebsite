@@ -1,20 +1,143 @@
 .skill-container {
     position: relative;
     width: 80%;
-    height: 100%;
-    border: 2px solid #000;
-
+    height: 100%
 
 }
 
 .bar {
     position: absolute;
     height: 1rem;
-    width: 100%;
+
     background: linear-gradient(90deg, rgba(222, 75, 75, 1) 0%, rgba(227, 32, 185, 1) 0%, rgba(255, 0, 0, 0.89) 68%, rgba(237, 221, 83, 1) 100%);
     border-radius: 5px;
 
     top: 10px;
 
     left: 180px;
+}
+
+
+.skill-container .first {
+    width: 30%;
+}
+
+.skill-container .second {
+    width: 70%;
+}
+
+.skill-container .third {
+    width: 87%;
+}
+
+.skill-container .fourth {
+    width: 69%;
+    top:30px;
+}
+
+
+
+.long-name {
+    width: 20%;
+
+    border: 1px solid brown;
+}
+
+
+.parent-circle {
+    border: 2px solid black;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 400px auto;
+}
+
+
+.circle{
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+    border-radius: 100%;
+
+    top: -10px;
+    right: -20px;
+}
+
+
+.about-section {
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    background-color: rgb(238, 238, 238);
+    border-radius: 2rem;
+
+
+}
+
+
+.about-section-paragraph{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.about-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    letter-spacing: -1px;
+}
+
+
+.skills-parent{
+    background-color: white;
+
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.stats-card{
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+}
+
+.stats-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* width: 100%; */
+}
+
+
+.line-parent{
+    position: relative
+}
+
+
+.line {
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    background-color: black;
 }
