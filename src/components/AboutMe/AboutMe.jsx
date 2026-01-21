@@ -27,7 +27,7 @@ const AboutMe = () => {
     return (
         <div className='about-section'>
 
-            let name = "Zohaib";
+           
 
             <h1 className='hero-heading-name about-heading'>About Me</h1>
 
