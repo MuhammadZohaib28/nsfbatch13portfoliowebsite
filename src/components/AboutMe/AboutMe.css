@@ -137,7 +137,13 @@
 
 .line {
     position: absolute;
-    width: 20px;
-    height: 70px;
+    width: 5px;
+    height: 100px;
     background-color: black;
+    left: 28rem;
+    border-radius: 100px;
+}
+
+.second-line {
+    left: 53.5rem;
 }

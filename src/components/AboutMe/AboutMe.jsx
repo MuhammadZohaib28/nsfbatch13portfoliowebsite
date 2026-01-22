@@ -27,7 +27,7 @@ const AboutMe = () => {
     return (
         <div className='about-section'>
 
-           
+
 
             <h1 className='hero-heading-name about-heading'>About Me</h1>
 
@@ -78,14 +78,21 @@ const AboutMe = () => {
                                     <p>{item.description}</p>
                                 </div>
 
-                                <div className='line'></div>
+
                             </div>
+
+
 
 
 
                         ))
 
+
+
                     }
+
+                    <div className='line gradient-text-color'></div>
+                    <div className='line second-line gradient-text-color'></div>
 
 
 
