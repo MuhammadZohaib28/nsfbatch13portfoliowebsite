@@ -1,9 +1,9 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({isServiceCard, number, headingName, description, url, imageSource }) => {
+const Card = ({ isServiceCard, number, headingName, description, url, imageSource, isImageCard }) => {
     return (
-        <div className='card'>
+        <div className={isImageCard ? 'image-card' : 'card'}>
             {isServiceCard ? (
                 <>
                     <span>{number}</span>
@@ -16,7 +16,7 @@ const Card = ({isServiceCard, number, headingName, description, url, imageSource
                 </>
             ) : (
                 <a href={url}>
-                    <img src={imageSource} alt="" />
+                    <img src={imageSource} alt="" className='card-image' />
                 </a>
             )}
         </div>

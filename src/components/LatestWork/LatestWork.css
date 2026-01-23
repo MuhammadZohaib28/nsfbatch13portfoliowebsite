@@ -1,0 +1,15 @@
+.latestwork-section {
+    background-color: rgb(238, 238, 238);
+
+    padding: 10px 20px;
+
+    border-radius: 2rem;
+}
+
+.seemorebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin: 0 auto;
+}
