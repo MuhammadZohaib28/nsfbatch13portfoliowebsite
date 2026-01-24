@@ -147,3 +147,80 @@
 .second-line {
     left: 53.5rem;
 }
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 10px 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        background-color: rgb(238, 238, 238);
+        border-radius: 2rem;
+    }
+
+    .about-section-paragraph{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .stats-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .skill-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .skill-container .long-name {
+        width: 40%;
+    }
+
+    .skill-container .bar {
+        left: 120px;
+    }
+
+
+    .skill-container h2 {
+        font-size: 0.9rem;
+    }
+
+    .skill-container .first {
+        width: 80%;
+    }
+
+    .skill-container .second {
+        width: 90%;
+    }
+
+    .skill-container .fourth{
+        width: 80%;
+        top:20px;
+    }        
+
+    .bar{
+        top: 5px;
+        height: 0.8rem;
+
+        left: 20px;
+
+        
+    }
+
+
+}

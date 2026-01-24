@@ -45,7 +45,7 @@ const Header = () => {
         <FaBars onClick={() => setMenuOpen(!menuOpen)} />
       </div>
 
-      <div>
+      
         {menuOpen && (
           <ul className='header-responsive-menu'>
             {
@@ -57,7 +57,7 @@ const Header = () => {
             }
           </ul>
         )}
-      </div>
+    
 
 
 
