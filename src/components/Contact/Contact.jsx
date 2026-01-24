@@ -4,7 +4,7 @@ import { CiVoicemail } from 'react-icons/ci'
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact'>
 
             <h1>Get in touch</h1>
 

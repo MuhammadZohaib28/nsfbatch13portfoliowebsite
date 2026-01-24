@@ -25,7 +25,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className='about-section'>
+        <div className='about-section' id='aboutMe'>
 
 
 

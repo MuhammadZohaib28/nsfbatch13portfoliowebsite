@@ -35,7 +35,7 @@ const LatestWork = () => {
 
 
     return (
-        <div className='services-section latestwork-section '>
+        <div className='services-section latestwork-section ' id='latestWork'>
 
             <h1 className='hero-heading-name about-heading'>Latest Work</h1>
 

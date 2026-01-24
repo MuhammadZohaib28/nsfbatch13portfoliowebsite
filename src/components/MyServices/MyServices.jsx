@@ -38,7 +38,7 @@ const MyServices = () => {
     ]
 
     return (
-        <div className='services-section'>
+        <div className='services-section' id='myServices'>
 
             <h1 className='hero-heading-name about-heading'>My Services</h1>
 

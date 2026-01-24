@@ -18,3 +18,8 @@
 
   -webkit-text-fill-color: transparent;
 }
+
+
+.html, body {
+  scroll-behavior: smooth;
+}

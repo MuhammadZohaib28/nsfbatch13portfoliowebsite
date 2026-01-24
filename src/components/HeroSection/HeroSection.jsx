@@ -9,7 +9,7 @@ const HeroSection = () => {
     let myName = "Zohaib";
 
     return (
-        <div className='herosection'>
+        <div className='herosection' id='heroSection'>
 
             <img src={profilepicture} alt="" />
 

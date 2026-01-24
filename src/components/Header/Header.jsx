@@ -1,30 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import Button from '../../common/Button'
+import { FaBars, FaBurger } from 'react-icons/fa6'
 
 
 const Header = () => {
 
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   let menuItems = [
     {
       name: "Home",
-      route: "/home",
+      route: "#heroSection",
     },
     {
       name: "About Me",
-      route: "/aboutme"
+      route: "#aboutMe"
     },
     {
       name: "Services",
-      route: "/services"
+      route: "#myServices"
     },
     {
       name: "My Work",
-      route: "/mywork"
+      route: "#latestWork"
     },
     {
       name: "Contact",
-      route: "/contact"
+      route: "#contact"
     },
 
   ]
@@ -36,13 +40,39 @@ const Header = () => {
       <h1 className=''>NSF</h1>
 
 
-      <ul>
+
+      <div className='small-screen-menu-button'>
+        <FaBars onClick={() => setMenuOpen(!menuOpen)} />
+      </div>
+
+      <div>
+        {menuOpen && (
+          <ul className='header-responsive-menu'>
+            {
+              menuItems.map((item, index) => (
+                <li key={index}>
+                  <a className='menu-items' href={item.route}>{item.name}</a>
+                </li>
+              ))
+            }
+          </ul>
+        )}
+      </div>
+
+
+
+
+      <ul className='menu-items-bigger'>
         {
 
           menuItems.map((item, index) => (
 
 
-            <li key={index}>{item.name}</li>
+            <li key={index}>
+              <a className='menu-items ' href={item.route}>{item.name}</a>
+
+
+            </li>
 
 
           ))
@@ -52,13 +82,17 @@ const Header = () => {
 
 
 
-        <Button buttonName={"Connect With Me"} isPrimary={true}/>
+
+      <div className='small-screen-button'>
+
+        <Button buttonName={"Connect With Me"} isPrimary={true} />
+      </div>
 
 
-       
 
 
-     
+
+
     </header>
   )
 }
